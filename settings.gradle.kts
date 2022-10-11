@@ -1,4 +1,3 @@
-rootProject.name = "source-spring"
-include("webmvc")
-include("spring-data-jpa")
-include("graphql")
+rootProject.name = "source-toyp"
+
+include("video-chat")
