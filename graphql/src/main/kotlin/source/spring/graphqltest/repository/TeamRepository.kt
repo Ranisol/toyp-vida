@@ -1,8 +1,8 @@
-package learn.spring.graphqltest.repository
+package source.spring.graphqltest.repository
 
-import learn.spring.graphqltest.entity.Team
-import learn.spring.graphqltest.entity.TeamManager
-import learn.spring.graphqltest.entity.TeamMember
+import source.spring.graphqltest.entity.Team
+import source.spring.graphqltest.entity.TeamManager
+import source.spring.graphqltest.entity.TeamMember
 import org.springframework.data.jpa.repository.JpaRepository
 
 interface TeamRepository: JpaRepository<Team, Long> {

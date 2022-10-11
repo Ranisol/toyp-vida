@@ -1,4 +1,4 @@
-package learn.spring.graphqltest.entity
+package source.spring.graphqltest.entity
 
 import javax.persistence.*
 
@@ -46,7 +46,7 @@ class Message(
     @ManyToOne
     var room: Room = Room(),
     @ManyToOne
-    var user:User = User(),
+    var user: User = User(),
     var content: String = ""
 )
 
@@ -56,7 +56,7 @@ class MessageImage(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long = 0,
     @ManyToOne
-    var message:Message = Message(),
+    var message: Message = Message(),
     var url: String = ""
 )
 
@@ -76,6 +76,6 @@ class MessageReplyImage(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long = 0,
     @ManyToOne
-    var messageReply:MessageReply = MessageReply(),
+    var messageReply: MessageReply = MessageReply(),
     var url: String = ""
 )

@@ -1,4 +1,4 @@
-package learn.spring.graphqltest.entity
+package source.spring.graphqltest.entity
 
 import javax.persistence.*
 

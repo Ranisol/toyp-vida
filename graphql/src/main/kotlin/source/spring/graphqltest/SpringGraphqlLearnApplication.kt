@@ -1,4 +1,4 @@
-package learn.spring.graphqltest
+package source.spring.graphqltest
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

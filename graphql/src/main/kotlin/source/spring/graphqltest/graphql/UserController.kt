@@ -1,7 +1,7 @@
-package learn.spring.graphqltest.graphql
+package source.spring.graphqltest.graphql
 
-import learn.spring.graphqltest.entity.User
-import learn.spring.graphqltest.repository.UserRepository
+import source.spring.graphqltest.entity.User
+import source.spring.graphqltest.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.graphql.data.method.annotation.MutationMapping
 import org.springframework.graphql.data.method.annotation.QueryMapping

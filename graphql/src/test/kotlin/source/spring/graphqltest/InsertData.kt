@@ -1,10 +1,12 @@
-package learn.spring.graphqltest
+package source.spring.graphqltest
 
 import learn.spring.graphqltest.entity.*
 import learn.spring.graphqltest.repository.*
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
+import source.spring.graphqltest.entity.*
+import source.spring.graphqltest.repository.*
 import javax.transaction.Transactional
 
 @SpringBootTest

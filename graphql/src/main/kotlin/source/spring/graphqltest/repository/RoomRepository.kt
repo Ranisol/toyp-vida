@@ -1,7 +1,8 @@
-package learn.spring.graphqltest.repository
+package source.spring.graphqltest.repository
 
 import learn.spring.graphqltest.entity.*
 import org.springframework.data.jpa.repository.JpaRepository
+import source.spring.graphqltest.entity.*
 
 interface RoomRepository: JpaRepository<Room, Long> {
 }
