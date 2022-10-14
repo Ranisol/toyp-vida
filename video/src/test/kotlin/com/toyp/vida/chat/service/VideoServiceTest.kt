@@ -23,4 +23,9 @@ class VideoServiceTest {
     fun test4() {
         Assertions.assertEquals(1, 1)
     }
+
+    @Test
+    fun test5() {
+        Assertions.assertEquals(1, 1)
+    }
 }
