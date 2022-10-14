@@ -1,3 +1,4 @@
-rootProject.name = "source-toyp"
+rootProject.name = "source-vida"
 
-include("video-chat")
+include("chat")
+include("video")
