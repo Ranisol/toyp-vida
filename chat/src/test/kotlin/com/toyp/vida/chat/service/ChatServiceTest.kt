@@ -15,4 +15,9 @@ class ChatServiceTest {
         Assertions.assertEquals(1, 1)
     }
 
+    @Test
+    fun test3() {
+        Assertions.assertEquals(1, 1)
+    }
+
 }
